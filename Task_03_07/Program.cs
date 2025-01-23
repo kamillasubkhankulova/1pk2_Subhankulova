@@ -4,15 +4,17 @@
     {
         static void Main(string[] args)
         {
-            const double g = 9.8;
+            //Написать программу, которая выводит таблицу скорости (через каждые 0,5с) свободно падающего тела v = g t, где g = 9,8 м / с2 - ускорение свободного падения.
 
-            Console.WriteLine("------------------");
-            Console.WriteLine("| Время    | Скорость      |");
-            Console.WriteLine("------------------");
+            const double g = 9.8; //вводим константу
 
-            for (double t = 0; t <= 15; t += 0.5)
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("| Время    | Скорость      |"); // cоздаем таблицу
+            Console.WriteLine("---------------------------");
+
+            for (double t = 0; t <= 15; t += 0.5) //проверяем условия
             {
-                double v = g * t;
+                double v = g * t; //выполняем вычисления
                 Console.WriteLine($"| {t,8:F1} | {v,14}");
             }
         }
