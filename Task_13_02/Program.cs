@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Pet pet1 = new Pet("Барсик", "Кот", 3, 4.5, true);
+            Pet pet1 = new Pet("Барсик", "Кот", 3, 5.5, true);
             Pet pet2 = new Pet("Шарик", "Собака", 5, 15.0, false);
             pet1.GetInfo();
             pet2.GetInfo();
