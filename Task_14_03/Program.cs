@@ -8,27 +8,26 @@ namespace Task_14_03
         //Реализуйте статический метод Factorial, который принимает целое число и возвращает его факториал. Сделайте так, чтобы метод работал только для неотрицательных чисел.
         static void Main(string[] args)
         {
-            int number = int.Parse(Console.ReadLine());
-            long factorialResult = Factorial(number);
-            if (factorialResult != -1)
+            int num = 5;
+            long factorial = Factorial(num);
+
+            if (factorial != -1)
             {
-                    Console.WriteLine($"Факториал числа {number} равен {factorialResult}");
+                Console.WriteLine($"Факториал {num} = {factorial}");
             }
-            Console.ReadKey();
-        }
-        static long Factorial(int n)
-        {
-            if (n < 0)
+            else
             {
                 Console.WriteLine("Факториал определен только для неотрицательных чисел.");
+            }
+        }
+        static long Factorial(int num)
+        {
+            if (num < 0)
+            {
                 return -1;
             }
-            if (n == 0)
-            {
-                return 1;
-            }
             long result = 1;
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= num; i++)
             {
                 result *= i;
             }
