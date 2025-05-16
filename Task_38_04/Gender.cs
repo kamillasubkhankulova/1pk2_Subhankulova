@@ -11,4 +11,5 @@ namespace Task_38_04
         Male,
         Female
     }
+
 }

@@ -159,7 +159,7 @@ namespace Task_38_04
                     $"Дата рождения: {selectedStudent.BirthDate:dd.MM.yyyy}",
                     "Информация о студенте",
                     MessageBoxButton.OK,
-                    MessageBoxImage.Information);
+                    MessageBoxImage.Information); 
             }
         }
     }

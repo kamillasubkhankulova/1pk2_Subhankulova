@@ -58,7 +58,7 @@ namespace Task_38_04
 
             _students.Clear();
             _students.AddRange(loadedStudents);
-            _students.Sort();
+            _students.Sort(); 
         }
     }
 }

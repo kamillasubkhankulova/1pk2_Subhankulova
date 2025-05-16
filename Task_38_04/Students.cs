@@ -47,7 +47,7 @@ namespace Task_38_04.Images
             int surnameComparison = string.Compare(Surname, other.Surname, StringComparison.OrdinalIgnoreCase);
             if (surnameComparison != 0) return surnameComparison;
 
-            return string.Compare(Name, other.Name, StringComparison.OrdinalIgnoreCase);
+            return string.Compare(Name, other.Name, StringComparison.OrdinalIgnoreCase); 
         }
     }
 }

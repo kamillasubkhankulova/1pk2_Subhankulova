@@ -142,7 +142,7 @@
 
             <!-- фоновое изображение -->
             <Image Source="/Images/OKEI.png" 
-                Grid.Row="9" 
+                Grid.Row="9"  
                 Grid.Column="0"
                 VerticalAlignment="Top"
                 MaxHeight="100"
